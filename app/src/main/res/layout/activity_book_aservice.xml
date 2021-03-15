@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/A Service"
+        android:id="@+id/AService"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/A Service" />
+        app:layout_constraintTop_toBottomOf="@+id/AService" />
 
     <CheckBox
         android:id="@+id/checkBoxService2"
@@ -109,6 +109,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/checkBoxService4"
         app:layout_constraintTop_toBottomOf="@+id/checkBoxService4"
-        android:background="@drawable/signupregister_btn_bg"/>
+        android:background="@drawable/signupregister_btn_bg"
+        android:onClick="servicebooknextbtn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
